@@ -133,7 +133,7 @@ class Globalnav extends Component {
                     <Row type="flex">
                       <Col><button onClick={this.toggleSearch.bind(this)}><img className="search" src={searchIcon} /></button></Col>
                       { toggleSearch ? <GnSearchView/> : null }
-                      <Col><button onClick={this.toggleNav}><img className="search" src={toggleNavIcon} /></button></Col>
+                      <Col><button onClick={this.toggleNav}><img className="toggle" src={toggleNavIcon} /></button></Col>
                     </Row>
                   </Col>
                 </Row>,

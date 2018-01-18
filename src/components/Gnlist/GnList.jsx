@@ -51,11 +51,13 @@ export class GnList extends Component {
   }
 
   hiddenAfterClick() {
-    setTimeout(() => {
-      this.props.dispatch(globalnavToggle(false))
-      !this.props.toggle ?
-      document.body.classList.add('gn-noscroll') : document.body.classList.remove('gn-noscroll')
-    }, 200);
+    if (this.props.toggle) {
+      setTimeout(() => {
+        this.props.dispatch(globalnavToggle(false))
+        document.body.classList.remove('gn-noscroll')
+      }, 200);
+    }
+
   }
 
   render() {

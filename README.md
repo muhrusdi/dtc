@@ -1,3 +1,3 @@
 # dtc
 
-![GitHub Logo](/dtc.png)
+![alt text](dtc.png "dtc logo")

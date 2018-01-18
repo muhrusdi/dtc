@@ -1,3 +1,3 @@
 # dtc
 
-![alt text](dtc.png "dtc logo")
+![dtc](./dtc.png "dtc logo")
